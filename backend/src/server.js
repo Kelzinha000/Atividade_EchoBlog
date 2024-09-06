@@ -2,13 +2,13 @@ import 'dotenv/config'
 import express,{  request, response } from "express";
 import cors from 'cors'
 
-import conn from "./config/conn.js";
+import conn from "./Config/conn.js";
 
 import postagemModel from './Models/postagemModel.js'
 
 import postagemRouter from './Routes/postagemRoutes.js'
 
-
+// blog
 const PORT = process.env.PORT
 
 const app = express()
